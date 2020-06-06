@@ -6,17 +6,19 @@
 #include <stdio.h>
 
 int main() {
+	
+	printf("  32=SPACE    \t");
 
-	for(int i = 0; i <= 127; i ++) {
+	for(int i = 33; i <= 126; i ++) {
 
 		printf("%d=%c\t", i, i);
 		
-		if(i % 5 == 0) {
+		if(i % 6 == 0) {
 			printf("\n");
 		}
 
 	}
-
+	
 	return 0;
 
 }
